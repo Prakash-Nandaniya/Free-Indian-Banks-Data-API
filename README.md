@@ -9,7 +9,7 @@
 [https://free-indian-banks-data-api.vercel.app/](https://free-indian-banks-data-api.vercel.app/)
 
 **Backend (API Base URL):**  
-[https://free-indian-banks-data-api.onrender.com/](https://free-indian-banks-data-api.onrender.com/)
+[https://free-indian-banks-data-api.onrender.com/](https://free-indian-banks-data-api.onrender.com/api/banks/)
 
 **Database:**
 used PostgreSQL database on Supabase plateform
@@ -77,7 +77,7 @@ After obtaining an API key, you can access the following endpoints:
 3. After getting your API key, use the endpoints described below to get information.
 4. Request Format:  `backend_URL/endpoint/?apikey=API_KEY`
 5. backend_URL= https://free-indian-banks-data-api.onrender.com
-6. Example: curl "https://free-indian-banks-data-api.onrender.com/api/banks/?apikey=YOUR_API_KEY"
+6. Sample Request: https://free-indian-banks-data-api.onrender.com/api/banks/?apikey=YOUR_API_KEY
 
 ## Bank API Documentation
 
