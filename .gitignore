@@ -7,10 +7,8 @@
 /API/venv/
 API/**/__pycache__/
 
-# General ignores (optional, but good practice)
+# General ignores 
 *.pyc
 *.pyo
+.env
 
-# OS/editor junk (optional)
-.DS_Store
-Thumbs.db
