@@ -34,6 +34,11 @@ const HomePage = ({ apiKey }) => {
               Search your API Key
             </Link>
           </div>
+          <div className="home-message-row">
+          <span className="home-message-text">
+              Api-key for recruiters/testers : "MJpXU0B4jVEyyPVVB55cfLp8sRAc-psW3UIGnVuqPMwbxHA5MZZd6zM3sbauPyJh"
+            </span>
+          </div>
         </>
       ) : (
         <ApiKeyBox apiKey={apiKey} />
