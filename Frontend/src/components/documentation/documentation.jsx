@@ -61,11 +61,11 @@ const Documentation = () => (
           <code>apikey</code> (string) - Your API key
         </span>
       </div>
-      <div className="docs-example-label">Example Request:</div>
+      <div className="docs-example-label">Request:</div>
       <pre className="docs-code-block">
-        {`curl "http://127.0.0.1:8000/api/banks/?apikey=YOUR_API_KEY"`}
+        {`"https://free-indian-banks-data-api.onrender.com/api/banks/?apikey=YOUR_API_KEY"`}
       </pre>
-      <div className="docs-example-label">Example Response:</div>
+      <div className="docs-example-label">Response:</div>
       <pre className="docs-code-block">
         {`[
   {
@@ -99,11 +99,11 @@ const Documentation = () => (
           <code>apikey</code> (string) - Your API key
         </span>
       </div>
-      <div className="docs-example-label">Example Request:</div>
+      <div className="docs-example-label">Request:</div>
       <pre className="docs-code-block">
-        {`curl "http://127.0.0.1:8000/api/branches/SBIN/?apikey=YOUR_API_KEY"`}
+        {`"https://free-indian-banks-data-api.onrender.com/api/branches/SBIN/?apikey=YOUR_API_KEY"`}
       </pre>
-      <div className="docs-example-label">Example Response:</div>
+      <div className="docs-example-label">Response:</div>
       <pre className="docs-code-block">
         {`[
   {
@@ -135,11 +135,11 @@ const Documentation = () => (
           <code>apikey</code> (string) - Your API key
         </span>
       </div>
-      <div className="docs-example-label">Example Request:</div>
+      <div className="docs-example-label">Request:</div>
       <pre className="docs-code-block">
-        {`curl "http://127.0.0.1:8000/api/branch/SBIN0001234/?apikey=YOUR_API_KEY"`}
+        {`"https://free-indian-banks-data-api.onrender.com/api/branch/SBIN0001234/?apikey=YOUR_API_KEY"`}
       </pre>
-      <div className="docs-example-label">Example Response:</div>
+      <div className="docs-example-label">Response:</div>
       <pre className="docs-code-block">
         {`{
   "ifsc": "SBIN0001234",
