@@ -31,7 +31,7 @@ const SearchApiKey = ({ setApiKey }) => {
 
     try {
       const BE_URL = process.env.REACT_APP_BE_URL;
-      const response = await fetch(`${BE_URL}/api/search-apikey/`, {
+      const response = await fetch(`${BE_URL}api/search-apikey/`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email }),

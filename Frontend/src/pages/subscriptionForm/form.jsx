@@ -50,7 +50,7 @@ const SubscriptionForm = ({ setApiKey }) => {
       try {
         console.log(formData);
         const BE_URL = process.env.REACT_APP_BE_URL;
-        const response = await fetch(`${BE_URL}/api/subscribe/`, {
+        const response = await fetch(`${BE_URL}api/subscribe/`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(formData),
