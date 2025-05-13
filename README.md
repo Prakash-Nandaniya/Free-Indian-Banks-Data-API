@@ -19,6 +19,20 @@ _This assignment was completed in approximately **1.5 days**._
 
 ---
 
+## How to Use This API
+
+1. **Get your API key:**  
+   - **New user:** Register at [Frontend URL](https://free-indian-banks-data-api.vercel.app/) using the Subscribe button.
+   - **Already subscribed:** Retrieve your API key by searching with your email on the same site.
+
+2. **Api-key for Recruiters / Testers:**  
+   `MJpXU0B4jVEyyPVVB55cfLp8sRAc-psW3UIGnVuqPMwbxHA5MZZd6zM3sbauPyJh`
+
+3. After getting your API key, use the endpoints described below to get information.
+4. Request Format:  `backend_URL/endpoint/?apikey=API_KEY`
+5. backend_URL= https://free-indian-banks-data-api.onrender.com
+6. Sample Request: https://free-indian-banks-data-api.onrender.com/api/banks/?apikey=YOUR_API_KEY
+
 ## Solution Approach & API Overview
 
 To use the API, users must subscribe and obtain an API key via the frontend. For recruiters or those wishing to test quickly, a public API key is provided below. If already subscribed, users can retrieve their API key using their email. All API key management and documentation are available at the [frontend URL](https://free-indian-banks-data-api.vercel.app/).
@@ -64,20 +78,6 @@ After obtaining an API key, you can access the following endpoints:
    - Hosted the frontend on Vercel and the backend on Render.
 
 ---
-
-## How to Use This API
-
-1. **Get your API key:**  
-   - **New user:** Register at [Frontend URL](https://free-indian-banks-data-api.vercel.app/) using the Subscribe button.
-   - **Already subscribed:** Retrieve your API key by searching with your email on the same site.
-
-2. **Recruiters / Testers:**  
-   Use this public API key for testing (no registration required): `MJpXU0B4jVEyyPVVB55cfLp8sRAc-psW3UIGnVuqPMwbxHA5MZZd6zM3sbauPyJh`
-
-3. After getting your API key, use the endpoints described below to get information.
-4. Request Format:  `backend_URL/endpoint/?apikey=API_KEY`
-5. backend_URL= https://free-indian-banks-data-api.onrender.com
-6. Sample Request: https://free-indian-banks-data-api.onrender.com/api/banks/?apikey=YOUR_API_KEY
 
 ## Bank API Documentation
 
