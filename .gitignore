@@ -1,0 +1,16 @@
+# Frontend ignores
+/Frontend/node_modules/
+/Frontend/.env
+
+# API ignores
+/API/.env
+/API/venv/
+API/**/__pycache__/
+
+# General ignores (optional, but good practice)
+*.pyc
+*.pyo
+
+# OS/editor junk (optional)
+.DS_Store
+Thumbs.db

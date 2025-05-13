@@ -1,0 +1,111 @@
+body {
+  background: #f5f7fa;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  max-width: 420px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  padding: 32px 28px 40px 28px;
+}
+
+button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 22px;
+  margin: 10px 8px 0 0;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:hover {
+  background: #0056b3;
+}
+
+input, .react-select__control {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0 0 0;
+  border: 1px solid #d2d6dc;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+label {
+  font-weight: 500;
+  margin-top: 14px;
+  display: block;
+}
+
+.error {
+  color: #e74c3c;
+  font-size: 0.93rem;
+  margin: 2px 0 8px 0;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 320px;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.13);
+  padding: 30px 22px;
+  z-index: 1000;
+  text-align: center;
+}
+.popup h3 {
+  margin-top: 0;
+}
+.popup .api-key {
+  background: #f0f4f8;
+  font-family: 'Courier New', monospace;
+  font-size: 1.1rem;
+  padding: 8px 0;
+  margin: 14px 0 18px 0;
+  border-radius: 4px;
+  word-break: break-all;
+}
+
+.api-key-section {
+  margin-top: 22px;
+  padding: 16px 14px;
+  background: #f0f4f8;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.api-key-section .api-key {
+  font-family: 'Courier New', monospace;
+  font-size: 1.07rem;
+  margin: 8px 0;
+  word-break: break-all;
+}
+
+.docs {
+  margin-top: 40px;
+  background: #f8fafc;
+  padding: 18px 16px;
+  border-radius: 6px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.05);
+}
+.docs h2 {
+  margin-top: 0;
+  font-size: 1.17rem;
+  color: #222;
+}
+.docs p {
+  margin: 0;
+  color: #555;
+  font-size: 0.98rem;
+}

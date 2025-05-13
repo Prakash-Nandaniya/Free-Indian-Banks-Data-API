@@ -1,0 +1,75 @@
+.api-key-box {
+    border: 1.5px solid #ededed;
+    border-radius: 12px;
+    background: #fff;
+    max-width: 420px;
+    margin: 24px auto 0 auto;
+    padding: 28px 24px 24px 24px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+  }
+  
+  .api-key-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 16px;
+  }
+  
+  .api-key-field-row {
+    display: flex;
+    align-items: center;
+    background: #f7f8fa;
+    border-radius: 8px;
+    padding: 12px 18px;
+    font-size: 1.13rem;
+    font-family: "Courier New", monospace;
+    color: #333;
+    gap: 10px;
+  }
+  
+  .api-key-field {
+    flex: 1;
+    word-break: break-all;
+  }
+  
+  
+  
+  .api-key-copy-btn:hover {
+    background: #ececec;
+  }
+  .api-key-copy-btn {
+    margin-left: 8px;
+    padding: 6px 10px;
+    border: 1px solid #888;
+    background: #fff;
+    color: #222;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s, border 0.2s;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .api-key-copy-btn.copied {
+    background: #222;
+    border-color: #222;
+    color: #fff;
+  }
+  
+  .api-key-copied-tooltip {
+    margin-left: 10px;
+    color: #27ae60;
+    font-size: 0.9em;
+    background: #222;
+    padding: 2px 8px;
+    border-radius: 4px;
+    position: absolute;
+    right: -80px;
+    top: 50%;
+    transform: translateY(-50%);
+    white-space: nowrap;
+    pointer-events: none;
+    opacity: 0.95;
+  }
+  

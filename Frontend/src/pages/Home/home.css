@@ -1,0 +1,99 @@
+body {
+  background: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.home-page {
+  background: #fff;
+  min-height: 100vh;
+  padding: 0 0 40px 0;
+}
+
+.home-header {
+  text-align: center;
+  margin-bottom: 36px;
+  padding-top: 44px;
+}
+
+
+.home-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #111;
+  margin-bottom: 14px;
+  letter-spacing: 1px;
+}
+
+.home-description {
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 18px;
+  line-height: 1.5;
+}
+
+.home-highlight {
+  color: #111;
+  font-weight: 600;
+  background: #eee;
+  padding: 2px 8px;
+  border-radius: 4px;
+  margin-top: 8px;
+  display: inline-block;
+}
+
+.home-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+
+.home-button {
+  padding: 14px 34px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.08rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.18s, color 0.18s;
+  background: #111;
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(30,30,30,0.05);
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.home-button:focus,
+.home-button:hover {
+  background: #323232;
+}
+
+.home-message-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.home-message-text {
+  color: #444;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.home-link.search-link {
+  color: #111;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: underline;
+  margin-left: 8px;
+  transition: color 0.18s;
+}
+
+.home-link.search-link:hover,
+.home-link.search-link:focus {
+  color: #555;
+  text-decoration: underline;
+}
