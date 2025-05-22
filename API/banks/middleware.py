@@ -11,7 +11,7 @@ class ApiKeyMiddleware:
     def __call__(self, request):
         # Only check API key for /api/banks/ and /api/branches/ endpoints
         path = request.path
-        if path.startswith('/api/banks') or path.startswith('/api/branches'):
+        if path.startswith('/api/banks') or path.startswith('/api/branches')or path.startswith('/api/branch/'):
             apikey = request.GET.get('apikey')
             if not apikey:
                 return JsonResponse({'error': 'API key is required in query parameters.'}, status=401)
