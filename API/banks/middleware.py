@@ -9,7 +9,6 @@ class ApiKeyMiddleware:
         self.get_response = get_response
 
     def __call__(self, request):
-        # Only check API key for /api/banks/ and /api/branches/ endpoints
         path = request.path
         if path.startswith('/api/banks') or path.startswith('/api/branches')or path.startswith('/api/branch/'):
             apikey = request.GET.get('apikey')
